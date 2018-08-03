@@ -1,0 +1,153 @@
+.home:after ,.menu:after ,.menu ul li:after,.menu_side:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.home img{
+	width:100px;
+}
+
+.floating_menu{
+	background-color:rgba(255,255,255,0.5);  
+}
+
+.floating_menu{
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+.home{
+	width:auto;
+	float:left;
+	padding-left:30px;
+	height:30px;
+}
+
+.home h1{
+	font-size:50px;
+	text-decoration:none;
+	float:left;
+	margin:0;
+	position:static;
+}
+
+.home h1 a{
+	text-decoration:none;
+	color:black;
+}
+
+.home img{
+	float:left;
+	width: 50px;
+	height: 50px;
+	margin-top: 8px;
+}
+
+.menu{
+	width:auto;
+	float:left;
+	margin:10px 100px;
+	height:40px;
+}
+.menu ul{
+	margin:0;
+	margin-bottom:10px;
+	
+	padding:0;
+	padding-right:50px;
+}
+
+.menu ul li {
+	float:left;	
+	list-style-type:none;
+}
+
+
+.menu ul li a{
+	padding:30px;
+	text-decoration:none;
+	font-size:30px;
+	color:black;
+}
+.menu ul li:hover{
+	border:3px black solid;
+}
+.menu ul li a:hover{
+	color:red;
+}
+
+
+.sidemenu{
+	position: fixed;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+}
+
+.sidemenu{
+	margin:0;
+	width:250px;
+	float:left;
+	background-color:rgba(255,255,255,0.5);
+}
+.sidemenu h2{
+	font-size:30px;
+	margin-top:50px;;
+}
+
+.sidemenu h2 :hover{
+	background-image: url(image/list_style_image.png);
+	background-size: 50px;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+.sidemenu h2 a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding:10px 50px;
+}
+.sidemenu h2 a:hover{
+	color:red;
+	
+}
+.sidemenu ul li a:hover{
+	color:red;
+	background-size: 30px;
+	background-repeat:no-repeat;
+	background-position:left;
+	}
+
+.sidemenu ul li{
+	font-size:20px;
+	font-weight:bold;
+	list-style-type:none;
+	margin-left:-40px;
+}
+
+.sidemenu ul li a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	padding:10px 50px;
+}
+
+.sidemenu ul li:hover{
+	border:3px black solid;
+	border-radius: 6px;
+	color:red;
+	background-image: url(image/list_style_image.png);
+	background-size: 50px;
+	background-repeat:no-repeat;
+	background-position:left;
+	
+}
+.sidemenu ul li a:hover{
+	color:red;
+	}
+
